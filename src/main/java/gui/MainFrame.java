@@ -10,6 +10,7 @@ import resource.implementation.InformationResource;
 import tree.implementation.SelectionListener;
 
 import javax.swing.*;
+import javax.swing.plaf.basic.BasicArrowButton;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import javax.swing.tree.DefaultTreeModel;
@@ -39,6 +40,8 @@ public class MainFrame extends JFrame implements Subscriber {
         return instance;
     }
 
+    private JTextField textField;
+    private JButton button;
 
     private void initialise() {
 
