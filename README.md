@@ -2,6 +2,7 @@
 
 This is an app that translates SQL queries to MongoQL and runs them as MongoQL.
 
+## Bits
 - GUI
 - Parser (understanding sql query)
 - Adapter (produces MongoQuery)
